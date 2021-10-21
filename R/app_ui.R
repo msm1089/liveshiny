@@ -10,7 +10,8 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic 
     fluidPage(
-      h1("liveshiny")
+      h1("liveshiny"),
+      mod_histogram_ui("histogram_ui_1")
     )
   )
 }

@@ -6,5 +6,5 @@
 #' @noRd
 app_server <- function( input, output, session ) {
   # Your application server logic 
-  
+  mod_histogram_server("histogram_ui_1")
 }
